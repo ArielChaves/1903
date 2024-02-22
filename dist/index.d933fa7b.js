@@ -1,0 +1,2 @@
+AOS.init();const e=new Date("Mar 19, 2024 09:00:00").getTime(),o=setInterval(function(){let n=e-new Date().getTime(),t=Math.floor(n/864e5),l=Math.floor(n%864e5/36e5),r=Math.floor(n%36e5/6e4),a=Math.floor(n%6e4/1e3);console.log(t),console.log(l),console.log(r),console.log(a),document.getElementById("contador").innerHTML=`${t}d ${l}h ${r}m ${a}s`,n<0&&(clearInterval(o),document.getElementById("contador").innerHTML="Evento encerrado")},1e3);
+//# sourceMappingURL=index.d933fa7b.js.map
