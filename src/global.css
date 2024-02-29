@@ -1,0 +1,34 @@
+    /* Definição de variáveis de cores para uso em toda a aplicação */
+    :root {
+        --cor-principal: #000000;
+        --cor-secundaria: #ffffff;
+        --cor-Botao: #0072ff;
+    }
+    
+    /* Reset de margem, padding, e definição de box-sizing e família de fontes para todos os elementos */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Lato, sans-serif;
+        list-style: none;
+    }
+    
+    /* Adiciona um padding na parte inferior do corpo para evitar sobreposição com outros elementos, como um rodapé fixo */
+    body {
+        padding-bottom: 120px;
+    }
+    
+    /* Define um container centralizado com largura máxima para alinhar o conteúdo da página */
+    .container {
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    /* Ajusta a largura máxima do container em telas menores que 1024px para melhor responsividade */
+    @media (max-width: 1024px) {
+        .container {
+        max-width: 80%;
+        }
+  }
